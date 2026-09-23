@@ -1,0 +1,44 @@
+<svg width="400" height="180" viewBox="0 0 400 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo Violeta/Azul Principal -->
+  <rect width="400" height="180" rx="20" fill="#5252F0"/>
+
+  <!-- Siluetas de barras/edificios en el fondo (capas púrpura más claras) -->
+  <g opacity="0.15" fill="#FFFFFF">
+    <rect x="230" y="70" width="30" height="110" rx="6"/>
+    <rect x="270" y="20" width="38" height="160" rx="8"/>
+    <rect x="320" y="50" width="32" height="130" rx="6"/>
+    <rect x="360" y="80" width="28" height="100" rx="6"/>
+  </g>
+
+  <!-- Nubes suaves de fondo -->
+  <path d="M220 52C220 46 226 40 234 40C242 40 248 45 256 45C264 45 268 41 276 43C284 45 284 54 276 56H220V52Z" fill="#FFFFFF" opacity="0.15"/>
+  <path d="M340 72C340 66 345 61 352 61C359 61 364 65 371 65C378 65 382 61 388 63C395 65 395 73 388 75H340V72Z" fill="#FFFFFF" opacity="0.15"/>
+
+  <!-- Camino 1: Izquierda (Curvo con flecha blanca en la punta) -->
+  <path d="M280 180C278 150 295 135 288 100" stroke="#2D2883" stroke-width="12" stroke-linecap="round"/>
+  <!-- Flecha Blanca Camino 1 -->
+  <path d="M288 95L276 115H300L288 95Z" fill="#FFFFFF"/>
+
+  <!-- Camino 2: Principal (Derecha, alto y sinuoso) -->
+  <path d="M345 180C330 140 370 100 338 35" stroke="#2D2883" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Flecha Gigante Blanca (Punta del Camino 2) -->
+  <path d="M338 25L315 55H361L338 25Z" fill="#FFFFFF"/>
+
+  <!-- Personaje subiendo la flecha derecha -->
+  <!-- Cabeza y cuerpo -->
+  <circle cx="320" cy="38" r="4.5" fill="#FF8A8A"/>
+  <path d="M320 43C315 48 322 55 328 52" stroke="#FF8A8A" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Piernas y Brazos -->
+  <path d="M316 48L308 58M322 50L330 58" stroke="#2D2883" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Flecha corta cortada en el extremo derecho extremo -->
+  <path d="M395 110L382 125H400L395 110Z" fill="#FFFFFF"/>
+
+  <!-- Pequeños domos/nubes blancas en las bases de los caminos -->
+  <rect x="222" y="138" width="20" height="12" rx="6" fill="#FFFFFF"/>
+  <circle cx="232" cy="136" r="8" fill="#FFFFFF"/>
+
+  <rect x="345" y="142" width="16" height="10" rx="5" fill="#FFFFFF"/>
+  <circle cx="353" cy="140" r="6" fill="#FFFFFF"/>
+</svg>
